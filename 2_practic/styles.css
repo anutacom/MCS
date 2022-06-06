@@ -1,0 +1,15 @@
+h1, h2 {
+background-color: #000000;
+color: white;
+margin-right: 665px;
+margin-left: 20px;
+padding-left: 10px;
+}
+p {
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+img {
+    margin-left: 20px;
+}
