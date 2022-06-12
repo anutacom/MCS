@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+.header {    
+    color: #E50043;
+    font-family: 'Arial';
+    display: flex;
+    flex-direction: row; 
+      
+     position: fixed;     
+    z-index: 1;       
+   }
+   .header1 {
+display: flex;
+justify-content: flex-end; 
+
+   }
+.background {
+    height: 950px;
+    background-image: url(evian_origins_logo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.name {
+    font-family: 'Arial';
+    color: #E50043;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1440px;
+    height: 950px;
+    left: 300px;
+    top: 140px;
+}
+.text{
+    font-family: 'Arial';
+    font-size: 25px;
+    padding: 100px 150px;
+    border: 5px solid #F8BFC7;
+    border-radius: 30px;
+    margin: 150px 200px;
+    padding: 10px 10px;
+    letter-spacing: 0.05em;    
+}
+p{
+    padding: 20px;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.name2 {
+    font-family: 'Arial';
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.text1 {
+    display: flex;
+    justify-content: space-between;
+}
+.images1 {
+    padding: 50px;
+}
+.footer{
+    height: 140px;
+    background: #F8BFC7;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding-left: 20px;
+    line-height: 57px;
+}
