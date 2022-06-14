@@ -3,27 +3,33 @@
     padding: 0;
     box-sizing: border-box;  
     }
-.header {    
+.header {   
+    width: 100%;
+    padding: 0 100px; 
+    display: flex; 
+    justify-content: space-between;
+    font-size: 45px;
     color: #E50043;
-    font-family: 'Arial';
-    display: flex;
-    flex-direction: row; 
-      
-     position: fixed;     
-    z-index: 1;       
+   font-family: 'Arial';
+   flex-direction: row;
+   position: fixed;        
+   z-index: 1; 
+        
    }
    .header1 {
-display: flex;
-justify-content: flex-end; 
-
+    display: flex;
+    justify-content: flex-end;
+   }
+   .link1, .link2, .link3 {
+    padding-right: 20px;
    }
 .background {
-    height: 950px;
+    height: 1040px;
     background-image: url(evian_origins_logo.jpg);
     background-size: cover;
     background-position: center center;
 }
-.name {
+h1 {
     font-family: 'Arial';
     color: #E50043;
     font-size: 100px;
@@ -35,42 +41,43 @@ justify-content: flex-end;
     left: 300px;
     top: 140px;
 }
-.text{
+.conteiner { 
+width: 1040px;
+display: flex;
+flex-direction: column;
+padding-left: 300px;
+
+
+
+
+}
+.border {
+    width: 900px;
     font-family: 'Arial';
     font-size: 25px;
-    padding: 100px 150px;
     border: 5px solid #F8BFC7;
     border-radius: 30px;
-    margin: 150px 200px;
+    margin: 50px 50px;
     padding: 10px 10px;
-    letter-spacing: 0.05em;    
+    letter-spacing: 0.05em;   
+   
 }
 p{
     padding: 20px;
 }
 .images {
     display: flex;
-    justify-content: space-between;
-    padding-right: 150px;
-    padding-left: 150px;
-}
-.name2 {
+    justify-content: space-between;  
     font-family: 'Arial';
     font-size: 25px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    text-align: center;   
 }
-.text1 {
-    display: flex;
-    justify-content: space-between;
+.image1, .image2 {
+    padding-right: 40px;
 }
-.images1 {
+.images4 {
+    display: flex;
+    flex-direction: row;
     padding: 50px;
 }
 .footer{
