@@ -55,11 +55,7 @@ margin: 0 auto;
     margin: 50px 50px;
     padding: 10px 10px;
     letter-spacing: 0.05em; 
-    margin: 50px 0;  
-   
-}
-p{
-    padding: 20px;
+    margin: 50px 0;     
 }
 .images {
     display: flex;
@@ -87,4 +83,18 @@ p{
     font-weight: 400;
     padding-left: 20px;
     line-height: 57px;
+}
+.border1 {
+    font-family: 'Arial';
+    font-size: 25px;
+    border: 5px solid #F8BFC7;
+    border-radius: 30px;    
+    padding: 10px 10px;
+    letter-spacing: 0.05em; 
+    margin: 50px 0;  
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
