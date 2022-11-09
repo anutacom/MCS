@@ -10,10 +10,10 @@ export default function Shop() {
     get('https://covid-shop-mcs.herokuapp.com')
     .then (data=>{
       setItems(data)
-      console.log(data)})
-    .catch(error=>console.error(error))
-  },[])
-  return (
+         console.log(data)})
+    .catch(error=>console.error(error))  
+  },[get])
+    return (
     <div className="shop">
       {loader? 'Идёт загрузка...':''}
       {items.map((item) => (
