@@ -4,15 +4,17 @@ import useFetch from './useFetch.js'
 
 export default function Shop() {
   const [items, setItems] = useState([]);
-  const {get,loader} = useFetch()
+  const {getData,loader} = useFetch()
 
   useEffect(()=>{
-    get('https://covid-shop-mcs.herokuapp.com')
+    
+    getData('https://covid-shop-mcs.herokuapp.com')
     .then (data=>{
       setItems(data)
          console.log(data)})
-    .catch(error=>console.error(error))  
-  },[get])
+    .catch(error=>console.error(error))
+      },[getData])
+
     return (
     <div className="shop">
       {loader? 'Идёт загрузка...':''}
